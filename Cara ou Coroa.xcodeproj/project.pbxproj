@@ -13,6 +13,7 @@
 		721E39D326F2955200F17A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721E39D126F2955200F17A34 /* Main.storyboard */; };
 		721E39D526F2955700F17A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 721E39D426F2955700F17A34 /* Assets.xcassets */; };
 		721E39D826F2955700F17A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721E39D626F2955700F17A34 /* LaunchScreen.storyboard */; };
+		721E39E026F2992E00F17A34 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721E39DF26F2992E00F17A34 /* DetalhesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		721E39D426F2955700F17A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		721E39D726F2955700F17A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		721E39D926F2955700F17A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721E39DF26F2992E00F17A34 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				721E39CB26F2955200F17A34 /* AppDelegate.swift */,
 				721E39CD26F2955200F17A34 /* SceneDelegate.swift */,
 				721E39CF26F2955200F17A34 /* ViewController.swift */,
+				721E39DF26F2992E00F17A34 /* DetalhesViewController.swift */,
 				721E39D126F2955200F17A34 /* Main.storyboard */,
 				721E39D426F2955700F17A34 /* Assets.xcassets */,
 				721E39D626F2955700F17A34 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721E39E026F2992E00F17A34 /* DetalhesViewController.swift in Sources */,
 				721E39D026F2955200F17A34 /* ViewController.swift in Sources */,
 				721E39CC26F2955200F17A34 /* AppDelegate.swift in Sources */,
 				721E39CE26F2955200F17A34 /* SceneDelegate.swift in Sources */,
@@ -293,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leonardoalmeida.Cara-ou-Coroa";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardoalmeida.caraoucoroa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +316,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.leonardoalmeida.Cara-ou-Coroa";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardoalmeida.caraoucoroa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
